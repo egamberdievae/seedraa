@@ -1,0 +1,83 @@
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    padding: 25px 0;
+    box-shadow: 0px 4px 12px 0px #CFCFCF40;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    background-color: #fff;
+    z-index: 999;
+  }
+  
+  nav .logo {
+    margin-right: 90px;
+  }
+  
+  nav .menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-right: 32px;
+  }
+  
+  nav .menu a {
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 178%;
+    letter-spacing: 0%;
+    color: #70737c;
+  }
+
+  nav .menu a:hover{
+    color: #359740;
+    transition: all .3s linear;
+  }
+  
+  nav .menu li {
+    border-right: 1px solid lightgray;
+    padding-right: 16px;
+  }
+
+  nav .menu .contact{
+    border-right: none;
+  }
+  
+  nav .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  nav .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    padding: 10px 22px;
+    border-radius: 71px;
+    gap: 3px;
+  }
+  
+  nav .input input {
+    outline: none;
+    border: none;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 178%;
+    letter-spacing: 0%;
+    color: #70737c;
+    padding: 3px 6px;
+  }
+  
+  nav .icons2 {
+    gap: 24px;
+  }

@@ -1,0 +1,38 @@
+.helps {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 100%;
+  gap: 170px;
+}
+
+.helps .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 521px;
+  gap: 31px;
+}
+
+.helps h2 {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 54px;
+  letter-spacing: -5%;
+  color: #1f2533;
+}
+
+.helps p{
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0%;
+color: #61697c;
+max-width: 500px;
+
+}
+
+.helps img{
+    width: 727.71px;
+}
