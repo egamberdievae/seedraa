@@ -1,0 +1,223 @@
+.blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.blog .firstLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px 295px;
+  /* border: 1px solid red; */
+  margin-bottom: 12px;
+}
+
+.blog .firstLine button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 178%;
+  letter-spacing: -3.5%;
+  color: #359740;
+  padding: 11px 33px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid #efefef;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.blog .firstLine button:hover {
+  background-color: #359740;
+  border: 1px solid #359740;
+  color: #efefef;
+}
+
+.blog .block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.blog .block .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.blog .block .left .top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #eaf1eb;
+  padding: 30px 0 0 30px;
+  border-radius: 12px;
+  /* gap: 20px; */
+  max-width: 730px;
+}
+
+.blog .block .left .top p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 178%;
+  letter-spacing: 0%;
+  color: #70737c;
+}
+
+.blog .block .left .top .need {
+  max-width: 400px;
+}
+
+.blog .block .left .top .leftt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.block .left .top .leftt button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 178%;
+  letter-spacing: -3.5%;
+  color: #359740;
+  padding: 11px 33px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid #efefef;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  margin-top: 6px;
+}
+
+.block .left .top .leftt button:hover {
+  background-color: #359740;
+  border: 1px solid #359740;
+  color: #efefef;
+}
+
+.blog .block .left .top .leftt h3 {
+  font-family: Lexend Deca;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31.5px;
+  letter-spacing: -2%;
+  max-width: 370px;
+  color: #1f2533;
+}
+
+.block .left .top .leftt .time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog .block .left .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.blog .block .left .bottom .top {
+  flex-direction: column;
+  background-color: #eff2f8;
+  position: relative;
+  min-height: 300px;
+  max-width: 350px;
+  gap: 0px;
+  padding: 30px 30px 100px 30px;
+}
+
+.blog .block .left .bottom .top img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.blog .right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #EFF2F8;
+  padding: 24px 24px 0;
+  border-radius: 12px;
+  /* gap: 20px; */
+  max-width: 350px;
+  min-height: 660px;
+  position: relative;
+}
+
+.blog .right img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.blog .right .leftt .time {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+
+.blog .right .leftt h3 {
+  font-family: Lexend Deca;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31.5px;
+  letter-spacing: -2%;
+  max-width: 306px;
+  color: #1f2533;
+}
+
+.block .right .leftt button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 178%;
+    letter-spacing: -3.5%;
+    color: #359740;
+    padding: 11px 33px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid #efefef;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin-top: 6px;
+  }
+  
+  .block .right .leftt button:hover {
+    background-color: #359740;
+    border: 1px solid #359740;
+    color: #efefef;
+  }
+
+  .blog .block .right p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 178%;
+    letter-spacing: 0%;
+    color: #70737c;
+  }
+  
+  .blog .block .right.need {
+    max-width: 400px;
+  }
+
+  .blogcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+  }

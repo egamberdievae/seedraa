@@ -53,6 +53,11 @@
   border: 1px solid #efefef;
   padding: 11px 22px;
   border-radius: 8px;
+  transition: all .3s linear;
+}
+
+.products .line2 button:hover{
+    border: 1px solid #359740;
 }
 
 .products .line2 button img {
@@ -78,6 +83,8 @@
   padding: 28px;
   position: relative;
 }
+
+
 
 .products .row .row__item .rate {
   display: flex;
@@ -128,6 +135,12 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: all .3s linear;
+}
+
+.products .row .row__item .tocart button:hover{
+    border: 1px solid #359740;
+    
 }
 
 .products .row .row__item .like {
@@ -143,5 +156,10 @@
   position: absolute;
   top: 12px;
   right: 12px;
+  transition: all .3s linear;
+}
+
+.products .row .row__item .like:hover{
+    border: 1px solid #FECF55;
 }
 
